@@ -25,6 +25,7 @@ global using static BepInEx.BepInDependency;
 global using static Skills;
 global using JetBrains.Annotations;
 global using TMPro;
+global using static ItemDrop.ItemData.AnimationState;
 global using Component = UnityEngine.Component;
 global using CompressionLevel = System.IO.Compression.CompressionLevel;
 global using static MessageHud.MessageType;
