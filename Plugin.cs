@@ -14,8 +14,6 @@ public class Plugin : BaseUnityPlugin
         ModAuthor = "Frogger";
 
     public static ConfigEntry<int> timeToDoRiposte;
-    public static ConfigEntry<float> riposteAttackDamageMultiplier;
-    public static ConfigEntry<float> riposteAttackAnimationSpeedMultiplier;
 
     public static bool isRiposteReady = false;
 
@@ -23,8 +21,7 @@ public class Plugin : BaseUnityPlugin
     {
         CreateMod(this, ModName, ModAuthor, ModVersion, ModGUID);
         timeToDoRiposte = config("General", "Time to do riposte", 1000, "");
-        riposteAttackDamageMultiplier = config("General", "Riposte Attack Damage Multiplier", 1.5f, "");
-        riposteAttackAnimationSpeedMultiplier = config("General", "Riposte Attack Animation Speed Multiplier", 2f, "");
+
 
         Localizer.Load();
     }

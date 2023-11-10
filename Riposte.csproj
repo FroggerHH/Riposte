@@ -12,7 +12,7 @@
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <LangVersion>latest</LangVersion>
+        <LangVersion>preview</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -93,8 +93,11 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="GlobalUsings.cs" />
+        <Compile Include="ItemDataManager.cs" />
         <Compile Include="Patch\CheckIsRiposteIsReady.cs" />
         <Compile Include="Patch\DoRiposteAttack.cs" />
+        <Compile Include="Patch\GiveArbalestDraw.cs" />
+        <Compile Include="Patch\KeepArbalestLoaded.cs" />
         <Compile Include="Plugin.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

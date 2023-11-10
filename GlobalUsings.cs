@@ -20,7 +20,6 @@ global using static ZoneSystem.ZoneVegetation;
 global using static Heightmap;
 global using static Heightmap.Biome;
 global using static ItemDrop;
-global using static ItemDrop.ItemData;
 global using static Riposte.Plugin;
 global using static BepInEx.BepInDependency;
 global using static Skills;
