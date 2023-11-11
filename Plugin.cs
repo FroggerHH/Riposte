@@ -9,7 +9,7 @@ namespace Riposte;
 public class Plugin : BaseUnityPlugin
 {
     public const string ModName = "Riposte",
-        ModVersion = "1.0.0",
+        ModVersion = "1.1.0",
         ModGUID = $"com.{ModAuthor}.{ModName}",
         ModAuthor = "Frogger";
 
